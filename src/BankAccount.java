@@ -1,11 +1,12 @@
-public class BankAccount {
+/*public class BankAccount
+{
     /*Write a Java program to create a class called "BankAccount"
      with instance variables "balance" and "accountNumber."
      Include a method to deposit money into the account and
      a method to withdraw money from the account.
 */
 //Instance variables
-int balance;
+/*int balance;
 int  accountNumber;
 int remainbalance;
 int withdrwamount;
@@ -37,4 +38,4 @@ public static  void main(String[] args)
     ba.withdraw(1000);
     ba.displaydata();
 }
-}
+}*/

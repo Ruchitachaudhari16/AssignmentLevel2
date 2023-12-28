@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Phone {
+public class Phone
+{
     /*WAP to create a class called "Phone" with instance variables "make," "model," and "storage."
      Include a method to calculate the price of the phone based on the make, model, and storage capacity and
     a method to print the phone's make, model, and storage capacity.*/

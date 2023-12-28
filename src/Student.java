@@ -1,4 +1,5 @@
-public class Student {
+public class Student
+{
     /*Write a Java program to create a class called "Student"
     with instance variables "name," "age," and "ID."
     Include a method to print the name and age of the student.
