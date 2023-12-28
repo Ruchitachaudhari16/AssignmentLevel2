@@ -8,19 +8,8 @@ public class Phone
     String make;
     String model;
     int storage;
-    void phoneinfo(String make,String model)
-    {
-        String m=make;
-        String mod=model;
 
-    }
-    void priceofphone(int storage)
-    {
-        int st=storage;
-        if(storage>8)
-        {
-        }
-    }
+
     public static  void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
@@ -30,13 +19,12 @@ public class Phone
         int stor=sc.nextInt();
         if(stor>=8)
         {
-            System.out.println("Mobile phone is above 20 thousand");
+            System.out.println("Mobile phone is above 30 thousand");
         }
         else
         {
          System.out.println("Mobile phone is below 20 thousand");
         }
-
 
     }
 }
