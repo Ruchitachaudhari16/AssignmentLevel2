@@ -15,15 +15,17 @@ public class Phone
         Scanner sc=new Scanner(System.in);
         System.out.println("Phone make by company:");
         String make=sc.nextLine();
+        System.out.println("Enter the model of phone");
+        String model=sc.nextLine();
         System.out.println("Enter the RAM storage of phone");
         int stor=sc.nextInt();
         if(stor>=8)
         {
-            System.out.println("Mobile phone is above 30 thousand");
+            System.out.println("Mobile price is above 30 thousand");
         }
         else
         {
-         System.out.println("Mobile phone is below 20 thousand");
+         System.out.println("Mobile price is below 20 thousand");
         }
 
     }
